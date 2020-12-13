@@ -27,7 +27,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 REVENGE_ROOT="${MY_DIR}/../../.."
 
-HELPER="${REVENGE_ROOT}/vendor/revengeos/build/tools/extract_utils.sh"
+HELPER="${ROOT}/vendor/aosp/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -35,7 +35,7 @@ fi
 source "${HELPER}"
 
 # Initialize the helper for common
-setup_vendor "${DEVICE}" "${VENDOR}" "${REVENGE_ROOT}" false
+setup_vendor "${DEVICE}" "${VENDOR}" "${ROOT}" false
 
 # Copyright headers and guards
 write_headers "${DEVICE}"

@@ -1,0 +1,23 @@
+[
+ {
+   "repository" : "hoahongden1021/vendor_xiaomi_cepheus-1",
+   "target_path": "vendor/xiaomi/cepheus",
+   "branch"     : "eleven"
+ },
+ {
+   "repository" : "hoahongden1021/kernel_xiaomi_sm8150",
+   "target_path": "kernel/xiaomi/cepheus",
+   "branch"     : "ten"
+ },
+ {
+   "repository" : "EcrosoftXiao/android_hardware_xiaomi",
+   "target_path": "hardware/xiaomi",
+   "branch"     : "eleven"
+ },
+ {
+   "repository" : "EcrosoftXiao/hardware-qcom-display-caf-sm8150",
+   "target_path": "hardware/qcom-caf/sm8150/display",
+   "remote"     : "github",
+   "branch"     : "11.0"
+ }
+]
